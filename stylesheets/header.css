@@ -1,0 +1,71 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+   
+ }
+ 
+ .center-table { width: 100%; text-align: center;}
+ .all-centered {  margin: 0 auto; max-width: 940px;}
+ 
+ 
+ #header {
+	 margin:0 auto;
+	 
+ }
+ 
+ #logo-column {
+   font-family:"raleway";
+   font-weight:200;
+   color: #0078e7;
+   text-align: center;
+ }
+ #header-nav-bar {
+   margin: 10px 0px 20px 0px;
+   height: 42px;
+ }
+ #header-nav-bar .navbar-inner {
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ 
+ #add-quote-div {
+   margin: 5px 0px 5px 0px;
+   background: #0078e7;
+   border-radius: 20px;
+ }
+ #add-quote-div p {
+   line-height: 1.5;
+   font-family:"raleway";
+   text-align: center;
+   font-size: 30px;
+   color: #ffffff;
+   font-weight: 500;
+   padding: 10px 0px 0px 0px;
+ }
+ #add-quote-div .pull-center.pull-center-1 {
+   padding: 0px 0px 10px 0px;
+ }
+ #QuoteSource {
+   margin-bottom: -5px;
+   border-radius: 12px;
+   width: 75%;
+   height:35px;
+   font-size:24px;
+   font-family:"droid sans";
+   padding-top:10px;
+ }
+ 
+ #note-add-quote
+ {
+	 width:75%;
+	 display:table;
+	 font-family:"raleway";
+	 font-size:18px;
+	 margin: 0 auto;
+	 text-align:left;
+	 font-weight:400;
+	 color: #ffffff;
+	 margin-bottom:5px;
+	 padding-bottom:10px;
+ }
