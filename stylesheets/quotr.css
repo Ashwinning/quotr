@@ -1,0 +1,82 @@
+ body {
+   padding-left: 0;
+   padding-right: 0;
+ }
+ /* This makes absolutely positioned elements like p, h1,
+     and some bootstrap elements placed properly. */
+ #absolute-wrapper p, #absolute-wrapper h1, #absolute-wrapper h2, #absolute-wrapper h3, #absolute-wrapper h4, #absolute-wrapper h5, #absolute-wrapper h6 {
+   margin-top: 0 !important;
+ }
+ #absolute-wrapper {
+   position: relative;
+   width: 980px;
+   margin: 0 auto;
+   height: 1px;
+ }
+ #absolute-wrapper .navbar {
+   height: 42px;
+   width: 460px;
+   position: absolute;
+   top: -150px;
+   left: 171px;
+ }
+ #absolute-wrapper .navbar .navbar-inner {
+   background: #ffffff;
+   background-image: -moz-linear-gradient(270deg, #ffffff 0%, #f2f2f2 100%);
+   background-image: -webkit-linear-gradient(270deg, #ffffff 0%, #f2f2f2 100%);
+   background-image: -o-linear-gradient(270deg, #ffffff 0%, #f2f2f2 100%);
+   background-image: linear-gradient(180deg, #ffffff 0%, #f2f2f2 100%);
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ #absolute-wrapper .row-fluid.row-fluid-1 {
+   width: 940px;
+   height: 120px;
+   position: absolute;
+   top: 478px;
+   left: 1042px;
+ }
+ .container-fluid .row-fluid .span2 .heading {
+   font-family:"raleway";
+   color: #0078e7;
+   font-weight: 900;
+   text-align: center;
+ }
+ .container-fluid .row-fluid .span10.span10-1 {
+   padding: 10px 0px 0px 0px;
+ }
+ .container-fluid .row-fluid .span10-1 .navbar {
+   height: 42px;
+ }
+ .container-fluid .row-fluid .span10-1 .navbar .navbar-inner {
+   height: 42px;
+   padding-left: 20px;
+   padding-right: 20px;
+ }
+ .container-fluid .row-fluid .span2 .well {
+   margin: 0px 0px 5px 18px;
+   padding: 2px;
+ }
+ .container-fluid .row-fluid .span2 p {
+   font-family:"Arial";
+   line-height: 1.5;
+   padding: 0px 0px 0px 20px;
+ }
+ .container-fluid .row-fluid .span10 .rectangle {
+   background: #0078e7;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+   box-shadow: none;
+   border-radius: 20px;
+   margin: 0px;
+   border: none;
+   height: 100px;
+ }
+ .container-fluid.container-fluid-1 {
+   padding: 20px 20px 0px 20px;
+ }
+ .container-fluid-1 .well {
+   padding: 5px;
+ }
